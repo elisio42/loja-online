@@ -7,10 +7,10 @@ const Produts = () => {
     
     return (
         <div className="text-3xl font-bold">
-            { produts.map(({ name, id, age }) => (
+            { produts.map(({ name, id, price }) => (
                 <div key={id}>
                     <h2>Nome: { name}</h2>
-                    <p>Idade: {age}</p>
+                    <p>Price: {price}</p>
                 </div>
             ))}
         </div>
